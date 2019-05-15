@@ -18,3 +18,14 @@ Ingredient.create(name: "vodka")
 Ingredient.create(name: "cranberry")
 Ingredient.create(name: "tequila")
 Ingredient.create(name: "lime")
+
+url = "http://static.giantbomb.com/uploads/original/9/99864/2419866-nes_console_set.png"
+cocktail = Cocktail.new(name: 'NES')
+cocktail.remote_photo_url = url
+cocktail.save
+
+url = "https://www.pexels.com/photo/alcoholic-bar-beverage-blur-338713"
+cocktail = Cocktail.new(name: 'test')
+cocktail.remote_photo_url = url
+cocktail.save
+

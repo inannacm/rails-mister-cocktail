@@ -1,7 +1,30 @@
-.container {
+body {
+  background-color: #090909;
+  color:white;
+}
+
+
+// .container-whole {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+.container-cocktail {
+  justify-content: left;
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+.cards-cocktail {
+  background-color: #090909;
   color: white;
 }
 
-.container-all {
-  background-color: black;
+.col-sm-6 {
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
 }
