@@ -27,6 +27,7 @@ Ingredient.create(name: "Oranges")
 Ingredient.create(name: "Juice")
 Ingredient.create(name: "Salt and pepper")
 Ingredient.create(name: "Roses Lime Cordial")
+Ingredient.create(name: "Lemon")
 
 
 url = "https://images.pexels.com/photos/616834/pexels-photo-616834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
