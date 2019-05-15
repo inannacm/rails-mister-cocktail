@@ -5,7 +5,7 @@
       <p><% @cocktail.doses.each do |dose|%></p>
         <div class="card-cocktail">
           <p>Ingredient: <%= dose.ingredient.name%></p>
-          <p>Amount:<%= dose.description %></p>
+          <p>Amount: <%= dose.description %></p>
           <p><%= link_to 'Delete ingredient', dose_path(dose),  method: :delete, class: "btn btn-danger" %></p>
         <% end %>
       </div>
